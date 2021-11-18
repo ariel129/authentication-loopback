@@ -1,0 +1,157 @@
+.container-main {
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  overflow-y: auto;
+  background: #f2f4f7;
+
+  &.login-card {
+    background-color: rgba(0, 10, 16, 0.8);
+  }
+}
+
+.wrapper {
+  margin: auto;
+  padding: 10px;
+}
+
+.login-card {
+  background-color: #fff;
+  padding: 50px 60px;
+  max-width: 520px;
+  width: 100%;
+}
+
+.login-header {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 4px solid #70bbfd;
+}
+
+.login-btn {
+  display: flex;
+  width: calc(100% + 10px);
+  margin: -10px 0 -20px -10px;
+
+  a {
+    margin: 10px 0 20px 10px;
+    white-space: nowrap;
+  }
+}
+
+.login__btn {
+  width: 100%;
+  margin-right: 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    height: 32px;
+    transition: border 0.3s;
+    background: transparent;
+
+    &:focus,
+    &:active {
+      outline: none;
+      border-color: #4ce1b6;
+    }
+  }
+}
+
+.form_form-group {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.form_form-input-wrap {
+  width: 100%;
+}
+
+.form_form-field {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  direction: ltr;
+}
+
+.form_form-label {
+  margin-bottom: 4px;
+  display: inline-block;
+  color: #646777;
+  span {
+    color: #dddddd;
+  }
+  font-family: "Raleway", sans-serif;
+}
+
+.form_form-icon {
+  padding: 6px;
+  height: 32px;
+  background: #f2f4f7;
+  border: 1px solid #f2f4f7;
+  svg {
+    fill: #999999;
+    width: 18px;
+    height: 18px;
+    transition: all 0.3s;
+  }
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+
+  &.btn-primary &.btn-outline-primary {
+    background-color: #70bbfd;
+    border-color: #70bbfd;
+
+    &:before {
+      background-color: darken(#70bbfd, 10%);
+    }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:focus {
+      border-color: darken(#70bbfd, 10%);
+    }
+  }
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main-wrapper {
+    .btn-logout {
+      width: 200px;
+    }
+  }
+}
+
+.main-wrapper {
+  width: 50%;
+  position: absolute;
+  text-align: center;
+}

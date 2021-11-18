@@ -1,0 +1,14 @@
+{
+  "ids": {
+    "User": 2,
+    "UserCredentials": 2
+  },
+  "models": {
+    "User": {
+      "a904ea14-c8a7-4b6c-a9e6-096b668fd07a": "{\"id\":\"a904ea14-c8a7-4b6c-a9e6-096b668fd07a\",\"email\":\"ariel@cccareers.org\"}"
+    },
+    "UserCredentials": {
+      "c6a30397-4c7e-41c8-b7da-0fbf697e08ae": "{\"id\":\"c6a30397-4c7e-41c8-b7da-0fbf697e08ae\",\"password\":\"$2a$10$3nAJSv4RhpQoJd1FEljlg.epujHKFawDFBX3J8WskKjTjJPyKOi4q\",\"userId\":\"a904ea14-c8a7-4b6c-a9e6-096b668fd07a\"}"
+    }
+  }
+}
